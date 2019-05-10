@@ -12,7 +12,6 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # =========================================================================================
 # author: Mohammadreza Hajy Heydary
-# group members: Melissa Riddle
 # =========================================================================================
 # main function is used to test the compiler
 # the function reads in the test file, pass it through the compiler and saves the results
