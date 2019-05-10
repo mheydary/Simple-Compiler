@@ -12,7 +12,6 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # =========================================================================================
 # author: Mohammadreza Hajy Heydary
-# group members: Melissa Riddle
 # =========================================================================================
 # Given a buffer of input, the preprocessor function reads in the file, removes all the
 # comments denoted in the comment symbol set, removes blank lines and returns the results
