@@ -1,0 +1,65 @@
+!Correct input. Should be parsed with no problem!
+a = b + c;
+d = e - g;
+t = z / r;
+l = f * q;
+o = n;
+if val1 then
+q = r - z;
+ifend
+if b then
+r = r + z;
+q = r;
+else
+q = z;
+ifend
+while a do
+a = a + b;
+b = c;
+whileend
+
+!Wrong input (1)!
+b + c;
+e - g;
+z / r;
+f * q;
+
+!Wrong input (2)!
+a = b ++;
+v - + k;
+
+!wrong input (3)!
+!if with no condition!
+if then
+ifend
+!if with no valid statement inside its if block!
+if a then
+b
+ifend
+!if with no valid statement inside its else block!
+if c then
+d = e * f;
+else
+ifend
+!if that has no expression inside its block!
+if h then
+ifend
+!missing ifend!
+if a then
+b = c;
+
+!wrong input (4)!
+!while with missing condition!
+while do
+b = c;
+whileend
+!while with bad statement inside!
+while a do
+b
+whileend
+!while with no statement inside!
+while a do
+whileend
+!while with missing whileend!
+while a do
+b = c;
