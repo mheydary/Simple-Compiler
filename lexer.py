@@ -12,7 +12,6 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # =========================================================================================
 # author: Mohammadreza Hajy Heydary
-# group members: Melissa Riddle
 # =========================================================================================
 # The lexer function performs lexical analysis on the preprocessed code provided in as a
 # list of strings. Lexer uses FSM to perform the analysis. The returned output is a
