@@ -1,5 +1,5 @@
 # Simple-Compiler
-Implemented Modjules: Lexer and Syntax Analyzer
+Implemented Modjules: Preprocessor, Lexer, and Syntax Analyzer
 Author: Mohammadreza Hajy Heydary
 
 Use python3 to run the compiler
